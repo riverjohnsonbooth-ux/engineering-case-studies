@@ -38,7 +38,7 @@ Tools Used:
 - Matplotlib
 - Jupyter Notebook
 
-About
+About:
 Created by River Johnson Booth
 Mechanical Engineering student at Cardiff University
 Interested in vehicle dynamics, motorsport engineering, and data-driven performance analysis
