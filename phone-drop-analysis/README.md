@@ -21,22 +21,20 @@ The free‑fall portion of the signal was used to estimate impact velocity, whic
 
 
 **2. Data Collection**
+
 Device: Smartphone accelerometer
-
 Sampling rate: ~100 Hz (approx.)
-
 Number of drops: 5
-
 Recorded channels:
-Time (s)
-Acceleration (g)
-
+- Time (s)
+- Acceleration (g)
 Drop height: 0.40 m
-
 Raw CSV files are stored in the data/ directory.
 
 
 **3. Methodology**
+
+
   3.1 Peak Detection
   Each dataset is processed using scipy.signal.find_peaks to identify the main impact peak.
   A fixed window around the peak is extracted to isolate the relevant portion of the signal.
@@ -67,7 +65,9 @@ v_theoretical = √(2gh)
 
 The measured velocity is compared to the theoretical value with a tolerance of ±0.1 m/s.
 
+
 **4. Results**
+
    4.1 Individual Drops
    All drops show similar impact profiles. A separate plot shows each drop in a unique colour
 
@@ -79,10 +79,14 @@ The measured velocity is compared to the theoretical value with a tolerance of �
    Impact velocity = 2.811 m/s
    Theoretical velocity = 2.801 m/s
 
+
 **5. Plots**
+
    Plots are stored in the plots/ directory
 
+
 **6. Code**
+
    Full analysis script is found in src/analysis.py
    A Jupyter notebook containing exploratory work can be found in notebooks/Phone_drop_analysis.ipynb
 
