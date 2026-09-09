@@ -1,4 +1,5 @@
-**Phone Drop Impact Analysis**
+****Phone Drop Impact Analysis****
+
 This case study investigates the acceleration profile of a smartphone during multiple drop tests. The goal is to analyse impact behaviour, identify consistent features across drops, estimate free‑fall velocity, and compare the measured impact velocity to the theoretical value based on drop height.
 
 The project demonstrates:
