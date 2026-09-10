@@ -25,8 +25,15 @@ A time-series analysis of accelerometer data recorded during multiple phone drop
  -sensor bias identification and correction
  -physics interpretation
 
+2. Barcelona Laptime Analysis
+A G-G diagram and analysis of acceleration data recorded during a lap of the Circuit de Barcelona-Catalunya. Includes:
+-scatter plot generation
+-logical indexing
+-bar chart generation
+-motorsport-relevant interpretation of IMU data
+
 Planned Case Studies (to be added over time)
-- MoTeC telemetry exploration (sample data)
+- Further MoTeC telemetry exploration (sample data)
 - Tyre temperature/pressure gradient analysis
 - Simple throttle/brake trace investigation
 - Tyre load and cornering force investigation
