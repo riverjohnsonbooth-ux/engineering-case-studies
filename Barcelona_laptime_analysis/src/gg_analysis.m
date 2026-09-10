@@ -40,6 +40,9 @@ scatter(Lat_A(brake_Pure), Long_A(brake_Pure), 6, [0.5412 0.1686 0.8863], 'fille
 
 hold off;
 
+ylabel("Longitudinal Acceleration /g")
+xlabel("Lateral Acceleration /g")
+title("G-G Diagram")
 legend();
 
 totalPoints = height(accelData)
@@ -85,4 +88,5 @@ b.CData = colours_sorted;
 
 yticklabels(regions_sorted)
 xlabel('Percentage of Samples (%)')
+title('% of laptime in each region')
 grid on
